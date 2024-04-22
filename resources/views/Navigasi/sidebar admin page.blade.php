@@ -7,17 +7,9 @@
                     Dashboard
                 </a>
                 <div class="sb-sidenav-menu-heading">Data</div>
-                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                    Data Anggota
-                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                <a class="nav-link" href="{{ route('data-anggota') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>Data Akun
                 </a>
-                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                    <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="{{ route('akun-anggota') }}">Akun Anggota</a>
-                        <a class="nav-link" href="{{ route('list-anggota') }}">List Anggota</a>
-                    </nav>
-                </div>
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                     <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                     Data Barang
@@ -33,9 +25,9 @@
                 <a class="nav-link" href="{{ route('data-pemesanan') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>Data Pemesanan
                 </a>
-                <a class="nav-link" href="{{ route('data-bantuan') }}">
+                <!-- <a class="nav-link" href="{{ route('data-bantuan') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>Data Bantuan
-                </a>
+                </a> -->
             </div>
         </div>
         <div class="sb-sidenav-footer">

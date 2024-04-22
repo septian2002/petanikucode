@@ -1,4 +1,4 @@
-@extends('Frontend.AA DataAnggota')
+@extends('Frontend.DataAnggota')
 
 @section('content')
 <div id="layoutSidenav_content">
@@ -7,12 +7,12 @@
             <h1 class="mt-4">Data Anggota</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                <li class="breadcrumb-item active">Akun Anggota</li>
+                <li class="breadcrumb-item active">Data Anggota</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table me-1"></i>
-                    Akun Anggota
+                    Data Anggota
                 </div>
                 <div class="card-body">
                     <table id="datatablesSimple">

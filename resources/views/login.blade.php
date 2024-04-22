@@ -9,6 +9,14 @@
         <title>Login - SB Admin</title>
         <link href="{{ asset('Admin Page/css/styles.css') }}" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                background-image: url('Landing Page/img/BackgroundLP.png'); /* Ganti 'path/to/your/image.jpg' dengan path gambar Anda */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        </style>
     </head>
     <body class="bg-primary">
         <div id="layoutAuthentication">
